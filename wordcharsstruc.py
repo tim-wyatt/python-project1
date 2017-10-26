@@ -1,4 +1,4 @@
-import string.py
+
 
 class wordStruct:
 
@@ -8,19 +8,19 @@ class wordStruct:
 	wordcount = 0
 	wordindex = 0
 
-	def __init__(self, theword)
+	def __init__(self, theword):
 		self.theword = theword # this should make each object equal to the word name
 
-	def incrementwordcount()
+	def incrementwordcount(self):
 		wordcount = wordcount + 1
 
-	def setwordlength ()
+	def setwordlength (self):
 		wordlen = len(self.theword)
 
-	def getwordlen()
+	def getwordlen(self):
 		"""do some stuff to return the wordlen"""
 
-	def getwordcount
+	def getwordcount(self):
 		"""do some stuff to return the word count"""
 
-	
+
