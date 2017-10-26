@@ -3,10 +3,35 @@
 	{
 		"selected_items":
 		[
+			[
+				"ex",
+				"exit\tfunction"
+			],
+			[
+				"ana",
+				"anaconda_linting"
+			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "wordcharsstruc.py",
+			"settings":
+			{
+				"buffer_size": 479,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "python-project1.sublime-project",
+			"settings":
+			{
+				"buffer_size": 489,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -15,10 +40,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 137.0,
-		"last_filter": "install pac",
+		"height": 392.0,
+		"last_filter": "list",
 		"selected_items":
 		[
+			[
+				"list",
+				"Package Control: List Packages"
+			],
 			[
 				"install pac",
 				"Package Control: Install Package"
@@ -28,7 +57,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 444.0
+		"width": 412.0
 	},
 	"console":
 	{
@@ -52,6 +81,10 @@
 	],
 	"file_history":
 	[
+		"/E/Users/Tim/Documents/GitHub/python-project1/sort_word.py",
+		"/E/Users/Tim/Documents/GitHub/python-project1/python-project1.sublime-project",
+		"/E/Users/Tim/Documents/GitHub/python-project1/README.MD",
+		"/E/Users/Tim/Documents/GitHub/python-project1/.gitignore",
 		"/E/Program Files/Sublime Text Build 3143 x64/Data/Packages/Anaconda/Anaconda.sublime-settings"
 	],
 	"find":
@@ -87,8 +120,77 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "wordcharsstruc.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 479,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								479,
+								479
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "python-project1.sublime-project",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 489,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -169,7 +271,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 267.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
