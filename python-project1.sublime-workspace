@@ -77,7 +77,7 @@
 	},
 	"expanded_folders":
 	[
-		"/E/Users/Tim/Documents/GitHub/python-project1"
+		"/C/Users/W130475/Documents/GitProjects/python-project1"
 	],
 	"file_history":
 	[
@@ -153,7 +153,8 @@
 									"selector": "source.python - string - constant.numeric"
 								}
 							],
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
