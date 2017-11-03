@@ -2,7 +2,8 @@
 
 class wordStruct:
 
-	"""This will be used to store data about each word as it is entered into the list"""
+	"""This will be used to store data about each word as it is entered into the list.
+	I did it as an exercise in using classes - don't judge :D"""
 
 	def __init__(self, theword):
 		self.wordlen = 0
