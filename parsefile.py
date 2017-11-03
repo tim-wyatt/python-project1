@@ -13,8 +13,8 @@ def extractword(inline):
 
     torange = len(inline)  - 1
     for chars in range (0, torange):
-        if inline[chars] == " "
+        if (inline[chars] == " "):
             '''we found a space, so the previous characters were a word'''
             '''need to save the index of the last whitespace char'''
             wsIndex = chars
-            
+            print(wsIndex)
