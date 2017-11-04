@@ -1,6 +1,6 @@
 
 
-class wordStruct:
+class node:
 
 	"""This will be used to store data about each word as it is entered into the list.
 	I did it as an exercise in using classes - don't judge :D"""
@@ -14,9 +14,9 @@ class wordStruct:
 		self.setwordlength()
 
 	def incrementwordcount(self):
-		 self.wordcount += 1
+		self.wordcount += 1
 
-	def setwordlength (self):
+	def setwordlength(self):
 		self.wordlen = len(self.theword)
 
 	def getwordlen(self):
