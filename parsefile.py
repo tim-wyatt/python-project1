@@ -1,7 +1,10 @@
 def parsetext(newfile):
 
-    lines = newfile.readline()
-    extractword(lines)
+    while True:
+        lines = newfile.readline()
+        if not lines:
+            break
+        extractword(lines)
 
 
 def extractword(inline):
@@ -19,6 +22,7 @@ def extractword(inline):
             word = inline[wsIndex:chindex]
 
             print(word)
+
             '''need to save the index of the last whitespace char'''
             wsIndex = chindex + 1
 
