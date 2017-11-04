@@ -4,7 +4,7 @@ This is the first Python project on my road to re-teaching myself how to code af
 ## Project Objective
 This project is to read in a bunch of English text, whatever that may be, and then to create a list, ordered on the last letter of each word.
 
-If there are many words with the same last letter, then the word will be placed in alphabetical order according to the penulitmate letter, etc.
+If there are many words with the same last letter, then the word will be placed in alphabetical order according to the penultimate letter, etc.
 
 If the same word is encountered then a counter will be incremented for that word.
 
