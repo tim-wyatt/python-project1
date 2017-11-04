@@ -1,5 +1,3 @@
-import sys
-
 def parsetext(newfile):
 
     lines = newfile.readline()
@@ -8,17 +6,24 @@ def parsetext(newfile):
 
 def extractword(inline):
     wsIndex = 0
-    chars = None
+    chindex = 0
     torange = None
 
-    torange = len(inline)  - 1
-    for chars in range (0, torange):
-        if (inline[chars] == " " or inline[chars] == "."):
-            '''we found a space or a full stop, so the previous characters were a word'''
-            '''need to save the index of the last whitespace char'''
-            word = inline[wsIndex:chars]
-            print(word)
+    torange = len(inline) - 1
+    # for chindex in range(0, torange):
+    while chindex < torange:
+        if (inline[chindex] == " " or inline[chindex] == "."):
+            '''we found a space or a full stop, so the previous characters were
+            a word'''
 
-            if (inline[chars] == "."):
-                chars +=  1
-            wsIndex = chars
+            word = inline[wsIndex:chindex]
+
+            print(word)
+            '''need to save the index of the last whitespace char'''
+            wsIndex = chindex + 1
+
+        if (inline[chindex] == "."):
+            chindex += 2
+            wsIndex += 1
+        else:
+            chindex += 1
