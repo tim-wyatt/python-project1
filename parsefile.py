@@ -13,7 +13,6 @@ def extractword(inline):
     torange = None
 
     torange = len(inline) - 1
-    # for chindex in range(0, torange):
     while chindex < torange:
         if (inline[chindex] == " " or inline[chindex] == "."):
             '''we found a space or a full stop, so the previous characters were
