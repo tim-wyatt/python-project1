@@ -13,12 +13,20 @@ def main():
 	execTime = None
 
 	timeStart = time.time()
-	newfile = open(sys.argv[1],'r')
+	try:
+		newfile = open(sys.argv[1], 'r')
+	except IndexError:
+		print("sort_word requires an input file\nPlease run python sort_word.py <file_to_sort>")
+		exit()
+
 	parsetext(newfile)
-	#Now need to read each word into a wordStruct class and then add that to a list (linked list?)
+	'''Now need to read each word into a wordStruct class and then add that to a
+	list (linked list?)'''
+
 	timeEnd = time.time()
 	execTime = timeEnd - timeStart
 	print("\n\nTotal time to execute script == " + str(execTime))
+
 
 if __name__ == '__main__':
 	main()
