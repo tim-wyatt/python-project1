@@ -21,8 +21,7 @@ def main():
         exit()
 
     parsetext(newfile)
-    '''Now need to read each word into a wordStruct class and then add that to a
-    list (linked list?)'''
+
 
     timeEnd = time.time()
     execTime = timeEnd - timeStart
