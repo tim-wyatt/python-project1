@@ -30,7 +30,7 @@ def extractword(inline, wordList):
 
             '''need to save the index of the last whitespace char'''
             wsIndex = chindex + 1
-
+'''this is a test'''
         if (inline[chindex] == "."):
             chindex += 2
             wsIndex += 1
